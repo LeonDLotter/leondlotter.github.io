@@ -483,7 +483,7 @@ footer .footer-below {
     font-size: 18px;    
 }
 
-@media(max-width:320px) {
+@media(max-width:400px) {
 
     .portfolio-modal .modal-content h2 {
         font-size: 2em;
