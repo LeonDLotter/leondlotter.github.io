@@ -3,7 +3,7 @@ layout: default
 grid: research
 modal-id: 2
 date: 2000-01-02
-img: Slide2.png
+img: Slide2.jpeg
 alt: image-alt
 ---
 

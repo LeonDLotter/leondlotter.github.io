@@ -3,7 +3,7 @@ layout: default
 grid: toolboxes
 modal-id: 5
 date: 2000-01-01
-img: Slide6.png
+img: Slide6.jpeg
 alt: image-alt
 ---
 
