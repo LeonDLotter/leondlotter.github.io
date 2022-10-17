@@ -492,6 +492,8 @@ footer .footer-below {
 
 .portfolio-modal .modal-content p.pub {
     text-align: left;
+    hyphens: auto;
+    -moz-hyphens: auto;
     margin-bottom: 0px;
     font-size: 18px;    
 }
@@ -499,6 +501,8 @@ footer .footer-below {
 .portfolio-modal .modal-content li {
     font-size: 20px;    
     text-align: left;
+    hyphens: auto;
+    -moz-hyphens: auto;
     margin-bottom: 0px;
 }
 
