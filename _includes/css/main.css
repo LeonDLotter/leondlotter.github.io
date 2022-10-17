@@ -10,7 +10,7 @@ body {
 
 p {
     font-size: 20px;
-    text-align: justify;
+    text-align: left;
     hyphens: auto;
     -moz-hyphens: auto;
 }
@@ -484,7 +484,7 @@ footer .footer-below {
 
 .portfolio-modal .modal-content p {
     font-size: 20px;    
-    text-align: justify;
+    text-align: left;
     margin-bottom: 20px;
     hyphens: auto;
     -moz-hyphens: auto;
