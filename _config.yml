@@ -47,18 +47,20 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/LeonDLotter
-  - title: github
-    url: http://github.com/LeonDLotter
-  - title: orcid
-    url: https://orcid.org/0000-0002-2337-6073
-  - title: graduation-cap
-    url: https://scholar.google.com/citations?hl=en&user=a5IJMzUAAAAJ
-  - title: researchgate
-    url: https://www.researchgate.net/profile/Leon-Lotter
-  - title: envelope
+  - symbol: envelope
     url: mailto:leondlotter@gmail.com
+  - symbol: twitter
+    url: http://twitter.com/LeonDLotter
+  - symbol: mastodon
+    url: https://fediscience.org/@LeonDLotter
+  - symbol: github
+    url: http://github.com/LeonDLotter
+  - symbol: researchgate
+    url: https://www.researchgate.net/profile/Leon-Lotter
+  - symbol: graduation-cap
+    url: https://scholar.google.com/citations?hl=en&user=a5IJMzUAAAAJ
+  - symbol: orcid
+    url: https://orcid.org/0000-0002-2337-6073
 
 # Postal address (add as many lines as necessary)
 address:

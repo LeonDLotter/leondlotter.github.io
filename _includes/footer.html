@@ -15,15 +15,20 @@
           <h3>{{ site.footer.social }}</h3>
           <ul class="list-inline">
             {% for network in site.social %}
-            {% if network.title == "envelope" or network.title == "graduation-cap"%}
+            {% if network.symbol == "envelope" or network.symbol == "graduation-cap"%}
             <li>
               <a href="{{ network.url }}" class="btn-social btn-outline"><i
-                  class="fa fa-fw fa-{{ network.title }}"></i></a>
+                  class="fa fa-fw fa-{{ network.symbol }}"></i></a>
+            </li>
+            {% else if network.symbol == "mastodon"%}
+            <li>
+              <a href="{{ network.url }}" rel="me" class="btn-social btn-outline"><i
+                  class="fa fa-brands fa-fw fa-{{ network.symbol }}"></i></a>
             </li>
             {% else %}
             <li>
               <a href="{{ network.url }}" class="btn-social btn-outline"><i
-                  class="fa fa-brands fa-fw fa-{{ network.title }}"></i></a>
+                  class="fa fa-brands fa-fw fa-{{ network.symbol }}"></i></a>
             </li>
             {% endif %}
             {% endfor %}
