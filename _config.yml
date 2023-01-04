@@ -49,14 +49,14 @@ footer:
 social:
   - symbol: envelope
     url: mailto:leondlotter@gmail.com
-  - symbol: twitter
-    url: http://twitter.com/LeonDLotter
   - symbol: mastodon
-    url: https://fediscience.org/@LeonDLotter
+    url: https://neuromatch.social/@LeonDLotter
   - symbol: github
     url: http://github.com/LeonDLotter
   - symbol: researchgate
     url: https://www.researchgate.net/profile/Leon-Lotter
+  - symbol: twitter
+    url: http://twitter.com/LeonDLotter
   - symbol: graduation-cap
     url: https://scholar.google.com/citations?hl=en&user=a5IJMzUAAAAJ
   - symbol: orcid
