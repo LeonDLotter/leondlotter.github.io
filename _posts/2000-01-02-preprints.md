@@ -17,15 +17,6 @@ alt: image-alt
 [pub]: https://img.shields.io/badge/Link-Publisher-orange?style=flat-square#badge
 [tw]: https://img.shields.io/badge/Link-Thread-1A8CD8?style=flat-square#badge
 
-#### Revealing the Neurobiology Underlying Interpersonal Neural Synchronization with Multimodal Data Fusion
-<p class="pub">Lotter LD, Kohl SH, Gerloff C, Bell L, Niephaus A, Kruppa JA, Dukart J, Schulte-Rüther M, Reindl V, & Konrad K (2022). bioRxiv.</p> 
-[![manuscript][pdfm]](/doc/2022_NeurobioINS_main.pdf)
-[![supplement][pdfs]](/doc/2022_NeurobioINS_supp.pdf)
-[![preprint][pre]](https://doi.org/10.1101/2022.07.26.501562)
-[![thread][tw]](https://twitter.com/LeonDLotter/status/1559124740450795521)
-[![github][git]](https://github.com/LeonDLotter/MAsync)
-<span class="altmetric-embed" data-doi='10.1101/2022.07.26.501562' data-badge-type="2" data-hide-no-mentions='true' data-badge-popover='right'></span>  
-
 #### Reflecting on the use of persuasive communication devices in academic writing  
 <p class="pub">Corneille O, Carroll H, Havemann J, Henderson EL, Holmes NP, Lotter LD, Lush P, & Outa N (2022). Zenodo.</p>
 [![manuscript][pdfm]](/doc/2022_persuasion.pdf)

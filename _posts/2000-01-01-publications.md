@@ -17,12 +17,22 @@ alt: image-alt
 [pub]: https://img.shields.io/badge/Link-Publisher-orange?style=flat-square#badge
 [tw]: https://img.shields.io/badge/Link-Thread-1A8CD8?style=flat-square#badge
 
+#### Revealing the neurobiology underlying interpersonal neural synchronization with multimodal data fusion
+<p class="pub">Lotter LD, Kohl SH, Gerloff C, Bell L, Niephaus A, Kruppa JA, Dukart J, Schulte-Rüther M, Reindl V, & Konrad K (2023). Neuroscience and Biobehavioral Reviews.</p> 
+[![manuscript][pdfm]](/doc/2023_NeurobioINS_main.pdf)
+[![supplement][pdfs]](/doc/2022_NeurobioINS_supp.pdf)
+[![publisher][pub]](https://doi.org/10.1016/j.neubiorev.2023.105042)
+[![preprint][pre]](https://doi.org/10.1101/2022.07.26.501562)
+[![thread][tw]](https://twitter.com/LeonDLotter/status/1559124740450795521)
+[![github][git]](https://github.com/LeonDLotter/MAsync)
+<span class="altmetric-embed" data-doi='10.1016/j.neubiorev.2023.105042' data-badge-type="2" data-hide-no-mentions='true' data-badge-popover='right'></span>  
+
 #### Recovery-Associated Resting-State Activity and Connectivity Alterations in Anorexia Nervosa
 <p class="pub">Lotter LD, von Polier G, Offermann J, Buettgen K, Stanetzky L, Eickhoff SB, Konrad K, Seitz J*, & Dukart J* (2021). Biological Psychiatry: Cognitive Neuroscience and Neuroimaging.</p>  
 [![manuscript][pdfm]](/doc/2021_ANRS_main.pdf)
 [![supplement][pdfs]](/doc/2021_ANRS_supp.pdf)
-[![preprint][pre]](https://doi.org/10.1101/2020.06.21.20135566)
 [![publisher][pub]](https://doi.org/10.1016/j.bpsc.2021.03.006)
+[![preprint][pre]](https://doi.org/10.1101/2020.06.21.20135566)
 [![thread][tw]](https://twitter.com/LeonDLotter/status/1404093809462595586)
 <span class="altmetric-embed" data-doi='10.1016/j.bpsc.2021.03.006' data-badge-type="2" data-hide-no-mentions='true' data-badge-popover='right'></span>
 
