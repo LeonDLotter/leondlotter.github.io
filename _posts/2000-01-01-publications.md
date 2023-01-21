@@ -18,7 +18,7 @@ alt: image-alt
 [tw]: https://img.shields.io/badge/Link-Thread-1A8CD8?style=flat-square#badge
 
 #### Revealing the neurobiology underlying interpersonal neural synchronization with multimodal data fusion
-<p class="pub">Lotter LD, Kohl SH, Gerloff C, Bell L, Niephaus A, Kruppa JA, Dukart J, Schulte-Rüther M, Reindl V, & Konrad K (2023). Neuroscience and Biobehavioral Reviews.</p> 
+<p class="pub">Lotter LD, Kohl SH, Gerloff C, Bell L, Niephaus A, Kruppa JA, Dukart J, Schulte-Rüther M, Reindl V, & Konrad K (2023). Neuroscience & Biobehavioral Reviews.</p> 
 [![manuscript][pdfm]](/doc/2023_NeurobioINS_main.pdf)
 [![supplement][pdfs]](/doc/2022_NeurobioINS_supp.pdf)
 [![publisher][pub]](https://doi.org/10.1016/j.neubiorev.2023.105042)
