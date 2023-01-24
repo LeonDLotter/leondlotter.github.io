@@ -15,7 +15,8 @@ alt: image-alt
 [zen]: https://img.shields.io/badge/Link-Zenodo-0475B6?style=flat-square#badge
 [git]: https://img.shields.io/badge/Link-GitHub-black?style=flat-square#badge
 [pub]: https://img.shields.io/badge/Link-Publisher-orange?style=flat-square#badge
-[tw]: https://img.shields.io/badge/Link-Thread-1A8CD8?style=flat-square#badge
+[mas]: https://img.shields.io/badge/Link-Mastodon-563ACC?style=flat-square#badge
+[tw]: https://img.shields.io/badge/Link-Twitter-1A8CD8?style=flat-square#badge
 
 #### Revealing the neurobiology underlying interpersonal neural synchronization with multimodal data fusion
 <p class="pub">Lotter LD, Kohl SH, Gerloff C, Bell L, Niephaus A, Kruppa JA, Dukart J, Schulte-Rüther M, Reindl V, & Konrad K (2023). Neuroscience & Biobehavioral Reviews.</p> 
@@ -23,7 +24,8 @@ alt: image-alt
 [![supplement][pdfs]](/doc/2022_NeurobioINS_supp.pdf)
 [![publisher][pub]](https://doi.org/10.1016/j.neubiorev.2023.105042)
 [![preprint][pre]](https://doi.org/10.1101/2022.07.26.501562)
-[![thread][tw]](https://twitter.com/LeonDLotter/status/1559124740450795521)
+[![mastodonthread][mas]](https://neuromatch.social/@LeonDLotter/109746240683938276)
+[![twitterthread][tw]](https://twitter.com/LeonDLotter/status/1618009047680319494)
 [![github][git]](https://github.com/LeonDLotter/MAsync)
 <span class="altmetric-embed" data-doi='10.1016/j.neubiorev.2023.105042' data-badge-type="2" data-hide-no-mentions='true' data-badge-popover='right'></span>  
 
@@ -33,7 +35,7 @@ alt: image-alt
 [![supplement][pdfs]](/doc/2021_ANRS_supp.pdf)
 [![publisher][pub]](https://doi.org/10.1016/j.bpsc.2021.03.006)
 [![preprint][pre]](https://doi.org/10.1101/2020.06.21.20135566)
-[![thread][tw]](https://twitter.com/LeonDLotter/status/1404093809462595586)
+[![twitterthread][tw]](https://twitter.com/LeonDLotter/status/1404093809462595586)
 <span class="altmetric-embed" data-doi='10.1016/j.bpsc.2021.03.006' data-badge-type="2" data-hide-no-mentions='true' data-badge-popover='right'></span>
 
 #### Autism spectrum symptoms in children with congenital blindness 
