@@ -17,9 +17,18 @@ alt: image-alt
 [pub]: https://img.shields.io/badge/Link-Publisher-orange?style=flat-square#badge
 [tw]: https://img.shields.io/badge/Link-Thread-1A8CD8?style=flat-square#badge
 
+#### Sex-dependent Clinical Presentation, Body Image, and Endocrine Status in Long-term Remitted Anorexia Nervosa
+<p class="pub">Schloesser L*, Lotter LD*, Offermann J, Borucki K, Biemann R, Seitz J, Konrad K, & Herpertz-Dahlmann B (2023). medRxiv</p>
+[![manuscript][pdfm]](/doc/2023_MaleAN_main.pdf)
+[![supplement][pdfs]](/doc/2023_MaleAN_main.pdf)
+[![preprint][pre]](https://doi.org/10.1101/2023.02.07.23285485)
+<span class="altmetric-embed" data-doi='10.1101/2023.02.07.23285485' data-badge-type="2" data-hide-no-mentions='true' data-badge-popover='right'></span>
+
 #### Reflecting on the use of persuasive communication devices in academic writing  
 <p class="pub">Corneille O, Carroll H, Havemann J, Henderson EL, Holmes NP, Lotter LD, Lush P, & Outa N (2022). Zenodo.</p>
 [![manuscript][pdfm]](/doc/2022_persuasion.pdf)
 [![preprint][pre]](https://doi.org/10.5281/zenodo.6375872)
 [![thread][tw]](https://twitter.com/opatcorneille/status/1459432305865465858)
 <span class="altmetric-embed" data-doi='10.5281/zenodo.6375872' data-badge-type="2" data-hide-no-mentions='true' data-badge-popover='right'></span>
+
+<p class="pub">* equal contributions</p>
