@@ -11,11 +11,20 @@ alt: image-alt
 
 [pdfm]: https://img.shields.io/badge/PDF-Manuscript-brightgreen?style=flat-square#badge
 [pdfs]: https://img.shields.io/badge/PDF-Supplement-brightgreen?style=flat-square#badge
+[zips]: https://img.shields.io/badge/PDF-Supplement-brightgreen?style=flat-square#badge
 [pre]: https://img.shields.io/badge/Link-Preprint-yellow?style=flat-square#badge
 [zen]: https://img.shields.io/badge/Link-Zenodo-0475B6?style=flat-square#badge
 [git]: https://img.shields.io/badge/Link-GitHub-black?style=flat-square#badge
 [pub]: https://img.shields.io/badge/Link-Publisher-orange?style=flat-square#badge
 [tw]: https://img.shields.io/badge/Link-Thread-1A8CD8?style=flat-square#badge
+
+#### Human cortex development is shaped by molecular and cellular brain systems
+<p class="pub">Lotter LD, Saberi A, Hansen JY, Misic B, ..., IMAGEN Consortium, Nees F, Banaschewski T, Eickhoff SB, & Dukart J (2023). bioRxiv</p>
+[![manuscript][pdfm]](/doc/2023_CTdev_main.pdf)
+[![supplement][zips]](/doc/2023_CTdev_supp.zip)
+[![preprint][pre]](https://doi.org/10.1101/2023.05.05.539537)
+[![github][git]](https://github.com/LeonDLotter/CTdev)
+<span class="altmetric-embed" data-doi='10.1101/2023.05.05.539537' data-badge-type="2" data-hide-no-mentions='true' data-badge-popover='right'></span>
 
 #### Sex-dependent Clinical Presentation, Body Image, and Endocrine Status in Long-term Remitted Anorexia Nervosa
 <p class="pub">Schloesser L*, Lotter LD*, Offermann J, Borucki K, Biemann R, Seitz J, Konrad K, & Herpertz-Dahlmann B (2023). medRxiv</p>
