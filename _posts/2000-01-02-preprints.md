@@ -23,6 +23,9 @@ alt: image-alt
 [![manuscript][pdfm]](/doc/2023_CTdev_main.pdf)
 [![supplement][zips]](/doc/2023_CTdev_supp.zip)
 [![preprint][pre]](https://doi.org/10.1101/2023.05.05.539537)
+[![mastodonthread][mas]](https://neuromatch.social/@LeonDLotter/110332987427316809)
+[![twitterthread][tw]](https://twitter.com/LeonDLotter/status/1655582681613189120)
+
 [![github][git]](https://github.com/LeonDLotter/CTdev)
 <span class="altmetric-embed" data-doi='10.1101/2023.05.05.539537' data-badge-type="2" data-hide-no-mentions='true' data-badge-popover='right'></span>
 
