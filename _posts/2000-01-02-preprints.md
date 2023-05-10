@@ -16,6 +16,7 @@ alt: image-alt
 [zen]: https://img.shields.io/badge/Link-Zenodo-0475B6?style=flat-square#badge
 [git]: https://img.shields.io/badge/Link-GitHub-black?style=flat-square#badge
 [pub]: https://img.shields.io/badge/Link-Publisher-orange?style=flat-square#badge
+[mas]: https://img.shields.io/badge/Link-Mastodon-563ACC?style=flat-square#badge
 [tw]: https://img.shields.io/badge/Link-Thread-1A8CD8?style=flat-square#badge
 
 #### Human cortex development is shaped by molecular and cellular brain systems
