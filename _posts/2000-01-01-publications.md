@@ -18,6 +18,14 @@ alt: image-alt
 [mas]: https://img.shields.io/badge/Link-Mastodon-563ACC?style=flat-square#badge
 [tw]: https://img.shields.io/badge/Link-Twitter-1A8CD8?style=flat-square#badge
 
+#### Reflecting on the use of persuasive communication devices in academic writing  
+<p class="pub">Corneille O, Havemann J, Henderson EL, Ijzerman H, Hussey I, Orban de Xivry J, Jussim L, Holmes NP, Pilacinski A, Beffara B, Carroll H, Outa NO, Lush P, $ Lotter, LD (2023). eLife.</p>  
+[![manuscript][pdfm]](/doc/2023_persuasion.pdf)
+[![publisher][pub]](https://doi.org/10.7554/eLife.88654)
+[![preprint][pre]](https://doi.org/10.5281/zenodo.6375872)
+[![thread][tw]](https://twitter.com/opatcorneille/status/1661766688998666240)
+<span class="altmetric-embed" data-doi='10.7554/eLife.88654' data-badge-type="2" data-hide-no-mentions='true' data-badge-popover='right'></span>
+
 #### Revealing the neurobiology underlying interpersonal neural synchronization with multimodal data fusion
 <p class="pub">Lotter LD, Kohl SH, Gerloff C, Bell L, Niephaus A, Kruppa JA, Dukart J, Schulte-Rüther M, Reindl V, & Konrad K (2023). Neuroscience & Biobehavioral Reviews.</p> 
 [![manuscript][pdfm]](/doc/2023_NeurobioINS_main.pdf)

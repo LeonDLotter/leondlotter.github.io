@@ -36,11 +36,4 @@ alt: image-alt
 [![preprint][pre]](https://doi.org/10.1101/2023.02.07.23285485)
 <span class="altmetric-embed" data-doi='10.1101/2023.02.07.23285485' data-badge-type="2" data-hide-no-mentions='true' data-badge-popover='right'></span>
 
-#### Reflecting on the use of persuasive communication devices in academic writing  
-<p class="pub">Corneille O, Carroll H, Havemann J, Henderson EL, Holmes NP, Lotter LD, Lush P, & Outa N (2022). Zenodo.</p>
-[![manuscript][pdfm]](/doc/2022_persuasion.pdf)
-[![preprint][pre]](https://doi.org/10.5281/zenodo.6375872)
-[![thread][tw]](https://twitter.com/opatcorneille/status/1459432305865465858)
-<span class="altmetric-embed" data-doi='10.5281/zenodo.6375872' data-badge-type="2" data-hide-no-mentions='true' data-badge-popover='right'></span>
-
 <p class="pub">* equal contributions</p>
