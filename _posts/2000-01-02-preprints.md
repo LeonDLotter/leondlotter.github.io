@@ -29,11 +29,3 @@ alt: image-alt
 [![github][git]](https://github.com/LeonDLotter/CTdev)
 <span class="altmetric-embed" data-doi='10.1101/2023.05.05.539537' data-badge-type="2" data-hide-no-mentions='true' data-badge-popover='right'></span>
 
-#### Sex-dependent Clinical Presentation, Body Image, and Endocrine Status in Long-term Remitted Anorexia Nervosa
-<p class="pub">Schloesser L*, Lotter LD*, Offermann J, Borucki K, Biemann R, Seitz J, Konrad K, & Herpertz-Dahlmann B (2023). medRxiv</p>
-[![manuscript][pdfm]](/doc/2023_MaleAN_main.pdf)
-[![supplement][pdfs]](/doc/2023_MaleAN_main.pdf)
-[![preprint][pre]](https://doi.org/10.1101/2023.02.07.23285485)
-<span class="altmetric-embed" data-doi='10.1101/2023.02.07.23285485' data-badge-type="2" data-hide-no-mentions='true' data-badge-popover='right'></span>
-
-<p class="pub">* equal contributions</p>

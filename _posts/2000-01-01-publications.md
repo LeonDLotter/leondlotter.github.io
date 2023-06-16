@@ -18,8 +18,16 @@ alt: image-alt
 [mas]: https://img.shields.io/badge/Link-Mastodon-563ACC?style=flat-square#badge
 [tw]: https://img.shields.io/badge/Link-Twitter-1A8CD8?style=flat-square#badge
 
+#### Sex-dependent clinical presentation, body image, and endocrine status in long-term remitted anorexia nervosa
+<p class="pub">Schloesser L*, Lotter LD*, Offermann J, Borucki K, Biemann R, Seitz J, Konrad K, & Herpertz-Dahlmann B (2023). European Eating Disorders Review</p>
+[![manuscript][pdfm]](/doc/2023_MaleAN_main.pdf)
+[![supplement][pdfs]](/doc/2023_MaleAN_main.pdf)
+[![publisher][pub]](https://doi.org/10.1002/erv.2997)
+[![preprint][pre]](https://doi.org/10.1101/2023.02.07.23285485)
+<span class="altmetric-embed" data-doi='10.1002/erv.2997' data-badge-type="2" data-hide-no-mentions='true' data-badge-popover='right'></span>
+
 #### Reflecting on the use of persuasive communication devices in academic writing  
-<p class="pub">Corneille O, Havemann J, Henderson EL, Ijzerman H, Hussey I, Orban de Xivry J, Jussim L, Holmes NP, Pilacinski A, Beffara B, Carroll H, Outa NO, Lush P, $ Lotter, LD (2023). eLife.</p>  
+<p class="pub">Corneille O, Havemann J, Henderson EL, Ijzerman H, Hussey I, Orban de Xivry J, Jussim L, Holmes NP, Pilacinski A, Beffara B, Carroll H, Outa NO, Lush P, Lotter, LD (2023). eLife.</p>  
 [![manuscript][pdfm]](/doc/2023_persuasion.pdf)
 [![publisher][pub]](https://doi.org/10.7554/eLife.88654)
 [![preprint][pre]](https://doi.org/10.5281/zenodo.6375872)
