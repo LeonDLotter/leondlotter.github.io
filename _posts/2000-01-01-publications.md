@@ -24,6 +24,7 @@ alt: image-alt
 [![supplement][pdfs]](/doc/2023_MaleAN_main.pdf)
 [![publisher][pub]](https://doi.org/10.1002/erv.2997)
 [![preprint][pre]](https://doi.org/10.1101/2023.02.07.23285485)
+[![thread][tw]](https://twitter.com/LeonDLotter/status/1670804900706496515)
 <span class="altmetric-embed" data-doi='10.1002/erv.2997' data-badge-type="2" data-hide-no-mentions='true' data-badge-popover='right'></span>
 
 #### Reflecting on the use of persuasive communication devices in academic writing  
