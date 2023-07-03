@@ -16,10 +16,10 @@ alt: image-alt
 [git]: https://img.shields.io/badge/Link-GitHub-black?style=flat-square#badge
 [pub]: https://img.shields.io/badge/Link-Publisher-orange?style=flat-square#badge
 [mas]: https://img.shields.io/badge/Link-Mastodon-563ACC?style=flat-square#badge
-[tw]: https://img.shields.io/badge/Link-Twitter-1A8CD8?style=flat-square#badge
+[tw]: https://img.shields.io/badge/Link-Thread-1A8CD8?style=flat-square#badge
 
 #### Sex-dependent clinical presentation, body image, and endocrine status in long-term remitted anorexia nervosa
-<p class="pub">Schloesser L*, Lotter LD*, Offermann J, Borucki K, Biemann R, Seitz J, Konrad K, & Herpertz-Dahlmann B (2023). European Eating Disorders Review</p>
+<p class="pub">Schloesser L*, Lotter LD*, Offermann J, Borucki K, Biemann R, Seitz J, Konrad K, & Herpertz-Dahlmann B (2023). European Eating Disorders Review.</p>
 [![manuscript][pdfm]](/doc/2023_MaleAN_main.pdf)
 [![supplement][pdfs]](/doc/2023_MaleAN_main.pdf)
 [![publisher][pub]](https://doi.org/10.1002/erv.2997)
