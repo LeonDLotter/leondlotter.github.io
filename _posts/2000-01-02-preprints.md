@@ -19,6 +19,13 @@ alt: image-alt
 [mas]: https://img.shields.io/badge/Link-Mastodon-563ACC?style=flat-square#badge
 [tw]: https://img.shields.io/badge/Link-Thread-1A8CD8?style=flat-square#badge
 
+#### Temporal dissociation between local and global functional adaptations of the maternal brain to childbirth: A longitudinal assessment
+<p class="pub">Chechko N, Nehls S, Losse E, Dukart J, Lotter LD (2023). bioRxiv</p>
+[![manuscript][pdfm]](/doc/2023_PPRS_main.pdf)
+[![supplement][zips]](/doc/2023_PPRS_supp.zip)
+[![preprint][pre]](https://doi.org/10.1101/2023.08.15.553345)
+<span class="altmetric-embed" data-doi='10.1101/2023.08.15.553345' data-badge-type="2" data-hide-no-mentions='true' data-badge-popover='right'></span>
+
 #### Human cortex development is shaped by molecular and cellular brain systems
 <p class="pub">Lotter LD, Saberi A, Hansen JY, Misic B, ..., IMAGEN Consortium, Nees F, Banaschewski T, Eickhoff SB, & Dukart J (2023). bioRxiv</p>
 [![manuscript][pdfm]](/doc/2023_CTdev_main.pdf)
