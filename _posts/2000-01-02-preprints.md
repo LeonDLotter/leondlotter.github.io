@@ -24,6 +24,7 @@ alt: image-alt
 [![manuscript][pdfm]](/doc/2023_PPRS_main.pdf)
 [![supplement][zips]](/doc/2023_PPRS_supp.zip)
 [![preprint][pre]](https://doi.org/10.1101/2023.08.15.553345)
+[![twitterthread][tw]](https://twitter.com/LeonDLotter/status/1703728958074740925)
 <span class="altmetric-embed" data-doi='10.1101/2023.08.15.553345' data-badge-type="2" data-hide-no-mentions='true' data-badge-popover='right'></span>
 
 #### Human cortex development is shaped by molecular and cellular brain systems
