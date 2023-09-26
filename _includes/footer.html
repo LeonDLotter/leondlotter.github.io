@@ -15,7 +15,7 @@
           <h3>{{ site.footer.social }}</h3>
           <ul class="list-inline">
             {% for network in site.social %}
-            {% if network.symbol == "envelope" or network.symbol == "graduation-cap"%}
+            {% if network.symbol == "envelope" or network.symbol == "graduation-cap" or network.symbol == "at"%}
             <li>
               <a href="{{ network.url }}" class="btn-social btn-outline"><i
                   class="fa fa-fw fa-{{ network.symbol }}"></i></a>
