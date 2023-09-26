@@ -50,15 +50,15 @@ social:
   - symbol: envelope
     url: mailto:leondlotter@gmail.com
   - symbol: at
-    url: 
-  - symbol: mastodon
     url: https://bsky.app/profile/leondlotter.de
+  - symbol: mastodon
+    url: https://neuromatch.social/@LeonDLotter
   - symbol: twitter
     url: http://twitter.com/LeonDLotter
-  - symbol: github
-    url: http://github.com/LeonDLotter
   - symbol: researchgate
     url: https://www.researchgate.net/profile/Leon-Lotter
+  - symbol: github
+    url: http://github.com/LeonDLotter
   - symbol: graduation-cap
     url: https://scholar.google.com/citations?hl=en&user=a5IJMzUAAAAJ
   - symbol: orcid
