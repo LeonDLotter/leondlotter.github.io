@@ -1,0 +1,65 @@
+---
+- 
+    type: preprint
+    title: Human cortex development is shaped by molecular and cellular brain systems
+    authors: Lotter LD, Saberi A, Hansen JY, Misic B, Paquola C, ..., IMAGEN Consortium, Nees F, Banaschewski T, Eickhoff SB, Dukart J
+    year: 2023
+    journal: bioRxiv
+    pdf_main: 2023_CTdev_main.pdf
+    zip_supp: 2023_CTdev_supp.pdf
+    doi_preprint: 10.1101/2023.05.05.539537
+    link_twitter: https://twitter.com/LeonDLotter/status/
+    link_github: https://github.com/LeonDLotter/Ctdev
+-   
+    type: preprint
+    title: Resting state changes in aging and Parkinson’s disease are shaped by underlying neurotransmission – a normative modeling study
+    authors: Kasper J, Caspers S, Lotter LD, Hoffstaedter F, Eickhoff SB, Dukart J
+    year: 2023
+    journal: bioRxiv
+    pdf_main: 2023_RSaging_main.pdf
+    pdf_supp: 2023_RSaging_supp.pdf
+    doi_preprint: 10.1101/2023.10.18.562677
+-
+    type: preprint
+    title: Temporal dissociation between local and global functional adaptations of the maternal brain to childbirth - A longitudinal assessment
+    authors:  Lotter LD, Nehls S, Losse E, Dukart J, Chechko N
+    year: 2023
+    journal: bioRxiv
+    pdf_main: 2023_PPRS_main.pdf
+    zip_supp: 2023_PPRS_supp.zip
+    doi_preprint: 10.1101/2023.08.15.553345
+    link_twitter: https://twitter.com/LeonDLotter/status/1703728958074740925
+-
+    type: published
+    title: Revealing the neurobiology underlying interpersonal neural synchronization with multimodal data fusion
+    authors: Lotter LD, Kohl SH, Gerloff C, Bell L, Niephaus A, Kruppa JA, Dukart J, Schulte-Rüther M, Reindl V, Konrad K
+    year: 2023
+    journal: Neuroscience & Biobehavioral Reviews
+    pdf_main: 2023_NeurobioINS_main.pdf
+    pdf_supp: 2023_NeurobioINS_supp.pdf
+    doi_publisher: 10.1016/j.neubiorev.2023.105042
+    doi_preprint: 10.1101/2022.07.26.501562
+    link_twitter: https://twitter.com/LeonDLotter/status/161800904768031949
+    link_mastodon: https://neuromatch.social/@LeonDLotter/109746240683938276
+    link_github: https://github.com/LeonDLotter/MAsync
+-
+    type: published
+    title: Recovery-Associated Resting-State Activity and Connectivity Alterations in Anorexia Nervosa
+    authors: Lotter LD, von Polier G, Offermann J, Buettgen K, Stanetzky L, Eickhoff SB, Konrad K, Seitz J*, & Dukart J*
+    year: 2021
+    journal: Biological Psychiatry - Cognitive Neuroscience and Neuroimaging
+    pdf_main: 2021_ANRS_main.pdf
+    pdf_supp: 2021_ANRS_supp.pdf
+    doi_publisher: 10.1016/j.bpsc.2021.03.006
+    doi_preprint: 10.1101/2020.06.21.20135566
+    link_twitter: https://twitter.com/LeonDLotter/status/1404093809462595586
+-
+    type: published
+    title: Reflecting on the use of persuasive communication devices in academic writing
+    authors: Corneille O, Havemann J, Henderson EL, Ijzerman H, Hussey I, Orban de Xivry J, Jussim L, Holmes NP, Pilacinski A, Beffara B, Carroll H, Outa NO, Lush P, Lotter LD
+    year: 2023
+    journal: eLife
+    pdf_main: 2023_persuasion.pdf
+    doi_preprint: 10.5281/zenodo.6375872
+    doi_publisher: 10.7554/eLife.88654
+    link_twitter: https://twitter.com/opatcorneille/status/1661766688998666240

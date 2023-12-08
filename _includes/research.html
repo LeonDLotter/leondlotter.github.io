@@ -1,0 +1,85 @@
+<!-- Research Section -->
+<section id="research">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Research</h2>
+        <div class="hrc"><span class="fa-solid fa-brain"></span></div>
+      </div>
+    </div>
+
+    <div class="row">
+      
+      <div class="col-lg-4  col-lg-offset-2">
+        <p>
+          I am interested in atypical neurobiological processes involved in the development of psychiatric disorders. 
+          My work focuses on integrative neuroimaging-heavy data analysis to map multilevel neurobiological correlates of typical and atypical phenotypes, from behavior, to brain-regional, molecular and genetic processes.
+        </p>
+      </div>
+
+      <div class="col-lg-4">
+        <img class="img-responsive" src="img/fig_research.jpg" style="width:350px; margin:auto"/>
+      </div>
+
+      <div class="col-lg-8 col-lg-offset-2">
+
+        <h3 class="pub">Selected Preprints</h3>
+        {% for entry in site.data.publications %}
+          {% if entry.type == 'preprint' %}
+            <div class="pub">
+              <h4>{{ entry.title }}</h4>
+              <p>{{ entry.authors | replace: 'Lotter LD', '<strong>Lotter LD</strong>' }} ({{ entry.year }}). {{ entry.journal }}.</p>
+              <p>
+                {% if entry.pdf_main %}<a href="/doc/{{ entry.pdf_main }}"><img src="https://img.shields.io/badge/PDF-Manuscript-brightgreen?style=flat-square#badge" alt="Manuscript" /></a>{% endif %}
+                {% if entry.pdf_supp %}<a href="/doc/{{ entry.pdf_supp }}"><img src="https://img.shields.io/badge/PDF-Supplement-brightgreen?style=flat-square#badge" alt="Supplement" /></a>{% endif %}
+                {% if entry.zip_supp %}<a href="/doc/{{ entry.zip_supp }}"><img src="https://img.shields.io/badge/ZIP-Supplement-brightgreen?style=flat-square#badge" alt="Supplement" /></a>{% endif %}
+                {% if entry.doi_preprint %}<a href="https://doi.org/{{ entry.doi_preprint }}"><img src="https://img.shields.io/badge/Link-Preprint-yellow?style=flat-square#badge" alt="Preprint" /></a>{% endif %}
+                {% if entry.link_twitter %}<a href="{{ entry.link_twitter }}"><img src="https://img.shields.io/badge/Link-Thread-1A8CD8?style=flat-square#badge" alt="Twitter thread" /></a>{% endif %}
+                {% if entry.link_mastodon %}<a href="{{ entry.link_mastodon }}"><img src="https://img.shields.io/badge/Link-Mastodon-563ACC?style=flat-square#badge" alt="Mastodon thread" /></a>{% endif %}
+                {% if entry.link_github %}<a href="{{ entry.link_github }}"><img src="https://img.shields.io/badge/Link-GitHub-black?style=flat-square#badge" alt="GitHub" /></a>{% endif %}
+                {% if entry.doi_preprint %}<span class="altmetric-embed" data-doi="{{ entry.doi_preprint }}" data-badge-type="2" data-hide-no-mentions="true" data-badge-popover="right"></span>{% endif %}
+              </p>
+            </div>
+          {% endif %}
+        {% endfor %}
+
+        <h3 class="pub">Selected Publications</h3>
+        {% for entry in site.data.publications %}
+          {% if entry.type == 'published' %}
+            <div class="pub">
+              <h4>{{ entry.title }}</h4>
+              <p>{{ entry.authors | replace: 'Lotter LD', '<strong>Lotter LD</strong>' }} ({{ entry.year }}). {{ entry.journal }}.</p>
+              <p>
+                {% if entry.pdf_main %}<a href="/doc/{{ entry.pdf_main }}"><img src="https://img.shields.io/badge/PDF-Manuscript-brightgreen?style=flat-square#badge" alt="Manuscript" /></a>{% endif %}
+                {% if entry.pdf_supp %}<a href="/doc/{{ entry.pdf_supp }}"><img src="https://img.shields.io/badge/PDF-Supplement-brightgreen?style=flat-square#badge" alt="Supplement" /></a>{% endif %}
+                {% if entry.zip_supp %}<a href="/doc/{{ entry.zip_supp }}"><img src="https://img.shields.io/badge/ZIP-Supplement-brightgreen?style=flat-square#badge" alt="Supplement" /></a>{% endif %}
+                {% if entry.doi_publisher %}<a href="https://doi.org/{{ entry.doi_publisher }}"><img src="https://img.shields.io/badge/Link-Publisher-orange?style=flat-square#badge" alt="Publisher" /></a>{% endif %}
+                {% if entry.doi_preprint %}<a href="https://doi.org/{{ entry.doi_preprint }}"><img src="https://img.shields.io/badge/Link-Preprint-yellow?style=flat-square#badge" alt="Preprint" /></a>{% endif %}
+                {% if entry.link_twitter %}<a href="{{ entry.link_twitter }}"><img src="https://img.shields.io/badge/Link-Thread-1A8CD8?style=flat-square#badge" alt="Twitter thread" /></a>{% endif %}
+                {% if entry.link_mastodon %}<a href="{{ entry.link_mastodon }}"><img src="https://img.shields.io/badge/Link-Mastodon-563ACC?style=flat-square#badge" alt="Mastodon thread" /></a>{% endif %}
+                {% if entry.link_github %}<a href="{{ entry.link_github }}"><img src="https://img.shields.io/badge/Link-GitHub-black?style=flat-square#badge" alt="GitHub" /></a>{% endif %}
+                {% if entry.doi_publisher %}
+                  <span class="altmetric-embed" data-doi="{{ entry.doi_publisher }}" data-badge-type="2" data-hide-no-mentions="true" data-badge-popover="right"></span>
+                {% elsif entry.doi_preprint %}
+                  <span class="altmetric-embed" data-doi="{{ entry.doi_preprint }}" data-badge-type="2" data-hide-no-mentions="true" data-badge-popover="right"></span>
+                {% endif %}
+              </p>
+            </div>
+          {% endif %}
+        {% endfor %}
+
+        <div class="pub">
+          <p style="margin-top:25px">*shared authorships</p>
+        </div>
+
+      </div>
+
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <a href="doc/CV.pdf" class="btn btn-lg btn-outline btn-outline-dark">
+          <i class="fa fa-graduation-cap"></i> All Publications
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
