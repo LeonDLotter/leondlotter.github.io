@@ -74,11 +74,15 @@
 
       </div>
 
+      {% for network in site.social %}
+      {% if network.symbol == "graduation-cap"%}
       <div class="col-lg-8 col-lg-offset-2 text-center">
-        <a href="doc/CV.pdf" class="btn btn-lg btn-outline btn-outline-dark">
-          <i class="fa fa-graduation-cap"></i> All Publications
+        <a href="{{ network.url }}" class="btn btn-lg btn-outline btn-outline-dark">
+          <i class="fa fa-fw fa-{{ network.symbol }}"></i> All Publications
         </a>
       </div>
+      {% endif %}
+      {% endfor %}
 
     </div>
   </div>
