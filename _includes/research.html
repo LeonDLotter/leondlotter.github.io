@@ -59,9 +59,9 @@
                 {% if entry.link_mastodon %}<a href="{{ entry.link_mastodon }}"><img src="https://img.shields.io/badge/Link-Mastodon-563ACC?style=flat-square#badge" alt="Mastodon thread" /></a>{% endif %}
                 {% if entry.link_github %}<a href="{{ entry.link_github }}"><img src="https://img.shields.io/badge/Link-GitHub-black?style=flat-square#badge" alt="GitHub" /></a>{% endif %}
                 {% if entry.doi_publisher %}
-                  <span class="altmetric-embed" data-doi="{{ entry.doi_publisher }}" data-badge-type="2" data-hide-no-mentions="true" data-badge-popover="right"></span>
+                  <span class="altmetric-embed" data-doi="{{ entry.doi_publisher }}" data-badge-type="2" data-hide-no-mentions="true" data-badge-popover="bottom"></span>
                 {% elsif entry.doi_preprint %}
-                  <span class="altmetric-embed" data-doi="{{ entry.doi_preprint }}" data-badge-type="2" data-hide-no-mentions="true" data-badge-popover="right"></span>
+                  <span class="altmetric-embed" data-doi="{{ entry.doi_preprint }}" data-badge-type="2" data-hide-no-mentions="true" data-badge-popover="bottom"></span>
                 {% endif %}
               </p>
             </div>
