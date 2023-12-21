@@ -37,7 +37,7 @@
                 {% if entry.link_twitter %}<a href="{{ entry.link_twitter }}"><img src="https://img.shields.io/badge/Link-Thread-1A8CD8?style=flat-square#badge" alt="Twitter thread" /></a>{% endif %}
                 {% if entry.link_mastodon %}<a href="{{ entry.link_mastodon }}"><img src="https://img.shields.io/badge/Link-Mastodon-563ACC?style=flat-square#badge" alt="Mastodon thread" /></a>{% endif %}
                 {% if entry.link_github %}<a href="{{ entry.link_github }}"><img src="https://img.shields.io/badge/Link-GitHub-black?style=flat-square#badge" alt="GitHub" /></a>{% endif %}
-                {% if entry.doi_preprint %}<span class="altmetric-embed" data-doi="{{ entry.doi_preprint }}" data-badge-type="2" data-hide-no-mentions="true" data-badge-popover="right"></span>{% endif %}
+                {% if entry.doi_preprint %}<span class="altmetric-embed" data-doi="{{ entry.doi_preprint }}" data-badge-type="2" data-hide-no-mentions="true" data-badge-popover="bottom"></span>{% endif %}
               </p>
             </div>
           {% endif %}
