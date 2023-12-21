@@ -23,49 +23,65 @@
 
       <div class="col-lg-8 col-lg-offset-2">
 
-        <h3 class="pub">Selected Preprints</h3>
-        {% for entry in site.data.publications %}
-          {% if entry.type == 'preprint' %}
-            <div class="pub">
-              <h4>{{ entry.title }}</h4>
-              <p>{{ entry.authors | replace: 'Lotter LD', '<strong>Lotter LD</strong>' }} ({{ entry.year }}). {{ entry.journal }}.</p>
-              <p>
-                {% if entry.pdf_main %}<a href="/doc/{{ entry.pdf_main }}"><img src="https://img.shields.io/badge/PDF-Manuscript-brightgreen?style=flat-square#badge" alt="Manuscript" /></a>{% endif %}
-                {% if entry.pdf_supp %}<a href="/doc/{{ entry.pdf_supp }}"><img src="https://img.shields.io/badge/PDF-Supplement-brightgreen?style=flat-square#badge" alt="Supplement" /></a>{% endif %}
-                {% if entry.zip_supp %}<a href="/doc/{{ entry.zip_supp }}"><img src="https://img.shields.io/badge/ZIP-Supplement-brightgreen?style=flat-square#badge" alt="Supplement" /></a>{% endif %}
-                {% if entry.doi_preprint %}<a href="https://doi.org/{{ entry.doi_preprint }}"><img src="https://img.shields.io/badge/Link-Preprint-yellow?style=flat-square#badge" alt="Preprint" /></a>{% endif %}
-                {% if entry.link_twitter %}<a href="{{ entry.link_twitter }}"><img src="https://img.shields.io/badge/Link-Thread-1A8CD8?style=flat-square#badge" alt="Twitter thread" /></a>{% endif %}
-                {% if entry.link_mastodon %}<a href="{{ entry.link_mastodon }}"><img src="https://img.shields.io/badge/Link-Mastodon-563ACC?style=flat-square#badge" alt="Mastodon thread" /></a>{% endif %}
-                {% if entry.link_github %}<a href="{{ entry.link_github }}"><img src="https://img.shields.io/badge/Link-GitHub-black?style=flat-square#badge" alt="GitHub" /></a>{% endif %}
-                {% if entry.doi_preprint %}<span class="altmetric-embed" data-doi="{{ entry.doi_preprint }}" data-badge-type="2" data-hide-no-mentions="true" data-badge-popover="bottom"></span>{% endif %}
-              </p>
-            </div>
-          {% endif %}
-        {% endfor %}
+        {% assign pub_categories = "preprint, published" | split: ", " %}
+        {% for preprint_publication in pub_categories %}
 
-        <h3 class="pub">Selected Publications</h3>
-        {% for entry in site.data.publications %}
-          {% if entry.type == 'published' %}
-            <div class="pub">
-              <h4>{{ entry.title }}</h4>
-              <p>{{ entry.authors | replace: 'Lotter LD', '<strong>Lotter LD</strong>' }} ({{ entry.year }}). {{ entry.journal }}.</p>
-              <p>
-                {% if entry.pdf_main %}<a href="/doc/{{ entry.pdf_main }}"><img src="https://img.shields.io/badge/PDF-Manuscript-brightgreen?style=flat-square#badge" alt="Manuscript" /></a>{% endif %}
-                {% if entry.pdf_supp %}<a href="/doc/{{ entry.pdf_supp }}"><img src="https://img.shields.io/badge/PDF-Supplement-brightgreen?style=flat-square#badge" alt="Supplement" /></a>{% endif %}
-                {% if entry.zip_supp %}<a href="/doc/{{ entry.zip_supp }}"><img src="https://img.shields.io/badge/ZIP-Supplement-brightgreen?style=flat-square#badge" alt="Supplement" /></a>{% endif %}
-                {% if entry.doi_publisher %}<a href="https://doi.org/{{ entry.doi_publisher }}"><img src="https://img.shields.io/badge/Link-Publisher-orange?style=flat-square#badge" alt="Publisher" /></a>{% endif %}
-                {% if entry.doi_preprint %}<a href="https://doi.org/{{ entry.doi_preprint }}"><img src="https://img.shields.io/badge/Link-Preprint-yellow?style=flat-square#badge" alt="Preprint" /></a>{% endif %}
-                {% if entry.link_twitter %}<a href="{{ entry.link_twitter }}"><img src="https://img.shields.io/badge/Link-Thread-1A8CD8?style=flat-square#badge" alt="Twitter thread" /></a>{% endif %}
-                {% if entry.link_mastodon %}<a href="{{ entry.link_mastodon }}"><img src="https://img.shields.io/badge/Link-Mastodon-563ACC?style=flat-square#badge" alt="Mastodon thread" /></a>{% endif %}
-                {% if entry.link_github %}<a href="{{ entry.link_github }}"><img src="https://img.shields.io/badge/Link-GitHub-black?style=flat-square#badge" alt="GitHub" /></a>{% endif %}
-                {% if entry.doi_publisher %}
-                  <span class="altmetric-embed" data-doi="{{ entry.doi_publisher }}" data-badge-type="2" data-hide-no-mentions="true" data-badge-popover="bottom"></span>
-                {% elsif entry.doi_preprint %}
-                  <span class="altmetric-embed" data-doi="{{ entry.doi_preprint }}" data-badge-type="2" data-hide-no-mentions="true" data-badge-popover="bottom"></span>
-                {% endif %}
-              </p>
-            </div>
-          {% endif %}
+          <h3 class="pub">
+            {% if preprint_publication == 'preprint' %}
+              Selected Preprints
+            {% elsif preprint_publication == 'published' %}
+              Selected Publications
+            {% endif %}
+          </h3>
+
+          {% for entry in site.data.publications %}
+            {% if entry.type == preprint_publication %}
+
+              <div class="pub">
+
+                <h4>{{ entry.title }}</h4>
+                <p>{{ entry.authors | replace: 'Lotter LD', '<strong>Lotter LD</strong>' }} ({{ entry.year }}). {{ entry.journal }}.</p>
+
+                <p>
+                  {% if entry.pdf_main %}
+                    <a href="/doc/{{ entry.pdf_main }}"><img src="https://img.shields.io/badge/Manuscript-{{ site.color.secondary }}?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTYiIHdpZHRoPSIxNiIgdmlld0JveD0iMCAwIDUxMiA1MTIiPjwhLS0hRm9udCBBd2Vzb21lIEZyZWUgNi41LjEgYnkgQGZvbnRhd2Vzb21lIC0gaHR0cHM6Ly9mb250YXdlc29tZS5jb20gTGljZW5zZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tL2xpY2Vuc2UvZnJlZSBDb3B5cmlnaHQgMjAyMyBGb250aWNvbnMsIEluYy4tLT48cGF0aCBvcGFjaXR5PSIxIiBmaWxsPSIjZmVmZmZmIiBkPSJNMCA2NEMwIDI4LjcgMjguNyAwIDY0IDBMMjI0IDBsMCAxMjhjMCAxNy43IDE0LjMgMzIgMzIgMzJsMTI4IDAgMCAxNDQtMjA4IDBjLTM1LjMgMC02NCAyOC43LTY0IDY0bDAgMTQ0LTQ4IDBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgNjR6bTM4NCA2NGwtMTI4IDBMMjU2IDAgMzg0IDEyOHpNMTc2IDM1MmwzMiAwYzMwLjkgMCA1NiAyNS4xIDU2IDU2cy0yNS4xIDU2LTU2IDU2bC0xNiAwIDAgMzJjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC00OCAwLTgwYzAtOC44IDcuMi0xNiAxNi0xNnptMzIgODBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTE2IDAgMCA0OCAxNiAwem05Ni04MGwzMiAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgNjRjMCAyNi41LTIxLjUgNDgtNDggNDhsLTMyIDBjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTEyOGMwLTguOCA3LjItMTYgMTYtMTZ6bTMyIDEyOGM4LjggMCAxNi03LjIgMTYtMTZsMC02NGMwLTguOC03LjItMTYtMTYtMTZsLTE2IDAgMCA5NiAxNiAwem04MC0xMTJjMC04LjggNy4yLTE2IDE2LTE2bDQ4IDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZsLTMyIDAgMCAzMiAzMiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0zMiAwIDAgNDhjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC02NCAwLTY0eiIvPjwvc3ZnPg==#badge" alt="Manuscript PDF" /></a>
+                  {% endif %}
+                  {% if entry.pdf_supp %}
+                    <a href="/doc/{{ entry.pdf_supp }}"><img src="https://img.shields.io/badge/Supplement-{{ site.color.secondary }}?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTYiIHdpZHRoPSIxNiIgdmlld0JveD0iMCAwIDUxMiA1MTIiPjwhLS0hRm9udCBBd2Vzb21lIEZyZWUgNi41LjEgYnkgQGZvbnRhd2Vzb21lIC0gaHR0cHM6Ly9mb250YXdlc29tZS5jb20gTGljZW5zZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tL2xpY2Vuc2UvZnJlZSBDb3B5cmlnaHQgMjAyMyBGb250aWNvbnMsIEluYy4tLT48cGF0aCBvcGFjaXR5PSIxIiBmaWxsPSIjZmVmZmZmIiBkPSJNMCA2NEMwIDI4LjcgMjguNyAwIDY0IDBMMjI0IDBsMCAxMjhjMCAxNy43IDE0LjMgMzIgMzIgMzJsMTI4IDAgMCAxNDQtMjA4IDBjLTM1LjMgMC02NCAyOC43LTY0IDY0bDAgMTQ0LTQ4IDBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgNjR6bTM4NCA2NGwtMTI4IDBMMjU2IDAgMzg0IDEyOHpNMTc2IDM1MmwzMiAwYzMwLjkgMCA1NiAyNS4xIDU2IDU2cy0yNS4xIDU2LTU2IDU2bC0xNiAwIDAgMzJjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC00OCAwLTgwYzAtOC44IDcuMi0xNiAxNi0xNnptMzIgODBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTE2IDAgMCA0OCAxNiAwem05Ni04MGwzMiAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgNjRjMCAyNi41LTIxLjUgNDgtNDggNDhsLTMyIDBjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTEyOGMwLTguOCA3LjItMTYgMTYtMTZ6bTMyIDEyOGM4LjggMCAxNi03LjIgMTYtMTZsMC02NGMwLTguOC03LjItMTYtMTYtMTZsLTE2IDAgMCA5NiAxNiAwem04MC0xMTJjMC04LjggNy4yLTE2IDE2LTE2bDQ4IDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZsLTMyIDAgMCAzMiAzMiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0zMiAwIDAgNDhjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC02NCAwLTY0eiIvPjwvc3ZnPg==#badge" alt="Supplement PDF" /></a>
+                  {% endif %}
+                  {% if entry.zip_supp %}
+                    <a href="/doc/{{ entry.zip_supp }}"><img src="https://img.shields.io/badge/Supplement-{{ site.color.secondary }}?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTYiIHdpZHRoPSIxMiIgdmlld0JveD0iMCAwIDM4NCA1MTIiPjwhLS0hRm9udCBBd2Vzb21lIEZyZWUgNi41LjEgYnkgQGZvbnRhd2Vzb21lIC0gaHR0cHM6Ly9mb250YXdlc29tZS5jb20gTGljZW5zZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tL2xpY2Vuc2UvZnJlZSBDb3B5cmlnaHQgMjAyMyBGb250aWNvbnMsIEluYy4tLT48cGF0aCBvcGFjaXR5PSIxIiBmaWxsPSIjZmVmZmZmIiBkPSJNNjQgMEMyOC43IDAgMCAyOC43IDAgNjRWNDQ4YzAgMzUuMyAyOC43IDY0IDY0IDY0SDMyMGMzNS4zIDAgNjQtMjguNyA2NC02NFYxNjBIMjU2Yy0xNy43IDAtMzItMTQuMy0zMi0zMlYwSDY0ek0yNTYgMFYxMjhIMzg0TDI1NiAwek05NiA0OGMwLTguOCA3LjItMTYgMTYtMTZoMzJjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZIMTEyYy04LjggMC0xNi03LjItMTYtMTZ6bTAgNjRjMC04LjggNy4yLTE2IDE2LTE2aDMyYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2SDExMmMtOC44IDAtMTYtNy4yLTE2LTE2em0wIDY0YzAtOC44IDcuMi0xNiAxNi0xNmgzMmM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNkgxMTJjLTguOCAwLTE2LTcuMi0xNi0xNnptLTYuMyA3MS44YzMuNy0xNCAxNi40LTIzLjggMzAuOS0yMy44aDE0LjhjMTQuNSAwIDI3LjIgOS43IDMwLjkgMjMuOGwyMy41IDg4LjJjMS40IDUuNCAyLjEgMTAuOSAyLjEgMTYuNGMwIDM1LjItMjguOCA2My43LTY0IDYzLjdzLTY0LTI4LjUtNjQtNjMuN2MwLTUuNSAuNy0xMS4xIDIuMS0xNi40bDIzLjUtODguMnpNMTEyIDMzNmMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmgzMmM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNkgxMTJ6Ii8+PC9zdmc+#badge" alt="Supplement ZIP" /></a>
+                  {% endif %}
+                  {% if entry.doi_publisher %}
+                    <a href="https://doi.org/{{ entry.doi_publisher }}"><img src="https://img.shields.io/badge/Journal-{{ site.color.secondary }}?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTYiIHdpZHRoPSIxNCIgdmlld0JveD0iMCAwIDQ0OCA1MTIiPjwhLS0hRm9udCBBd2Vzb21lIEZyZWUgNi41LjEgYnkgQGZvbnRhd2Vzb21lIC0gaHR0cHM6Ly9mb250YXdlc29tZS5jb20gTGljZW5zZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tL2xpY2Vuc2UvZnJlZSBDb3B5cmlnaHQgMjAyMyBGb250aWNvbnMsIEluYy4tLT48cGF0aCBvcGFjaXR5PSIxIiBmaWxsPSIjZmVmZmZmIiBkPSJNOTYgMEM0MyAwIDAgNDMgMCA5NlY0MTZjMCA1MyA0MyA5NiA5NiA5NkgzODRoMzJjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJWMzg0YzE3LjcgMCAzMi0xNC4zIDMyLTMyVjMyYzAtMTcuNy0xNC4zLTMyLTMyLTMySDM4NCA5NnptMCAzODRIMzUydjY0SDk2Yy0xNy43IDAtMzItMTQuMy0zMi0zMnMxNC4zLTMyIDMyLTMyem0zMi0yNDBjMC04LjggNy4yLTE2IDE2LTE2SDMzNmM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNkgxNDRjLTguOCAwLTE2LTcuMi0xNi0xNnptMTYgNDhIMzM2YzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2SDE0NGMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNnoiLz48L3N2Zz4=#badge" alt="Journal" /></a>
+                  {% endif %}
+                  {% if entry.doi_preprint %}
+                    <a href="https://doi.org/{{ entry.doi_preprint }}"><img src="https://img.shields.io/badge/Preprint-{{ site.color.secondary }}?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTYiIHdpZHRoPSIxNiIgdmlld0JveD0iMCAwIDUxMiA1MTIiPjwhLS0hRm9udCBBd2Vzb21lIEZyZWUgNi41LjEgYnkgQGZvbnRhd2Vzb21lIC0gaHR0cHM6Ly9mb250YXdlc29tZS5jb20gTGljZW5zZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tL2xpY2Vuc2UvZnJlZSBDb3B5cmlnaHQgMjAyMyBGb250aWNvbnMsIEluYy4tLT48cGF0aCBvcGFjaXR5PSIxIiBmaWxsPSIjZmVmZmZmIiBkPSJNOTYgOTZjMC0zNS4zIDI4LjctNjQgNjQtNjRINDQ4YzM1LjMgMCA2NCAyOC43IDY0IDY0VjQxNmMwIDM1LjMtMjguNyA2NC02NCA2NEg4MGMtNDQuMiAwLTgwLTM1LjgtODAtODBWMTI4YzAtMTcuNyAxNC4zLTMyIDMyLTMyczMyIDE0LjMgMzIgMzJWNDAwYzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZWOTZ6bTY0IDI0djgwYzAgMTMuMyAxMC43IDI0IDI0IDI0SDI5NmMxMy4zIDAgMjQtMTAuNyAyNC0yNFYxMjBjMC0xMy4zLTEwLjctMjQtMjQtMjRIMTg0Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNHptMjA4LThjMCA4LjggNy4yIDE2IDE2IDE2aDQ4YzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2SDM4NGMtOC44IDAtMTYgNy4yLTE2IDE2em0wIDk2YzAgOC44IDcuMiAxNiAxNiAxNmg0OGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNkgzODRjLTguOCAwLTE2IDcuMi0xNiAxNnpNMTYwIDMwNGMwIDguOCA3LjIgMTYgMTYgMTZINDMyYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2SDE3NmMtOC44IDAtMTYgNy4yLTE2IDE2em0wIDk2YzAgOC44IDcuMiAxNiAxNiAxNkg0MzJjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZIMTc2Yy04LjggMC0xNiA3LjItMTYgMTZ6Ii8+PC9zdmc+#badge" alt="Preprint" /></a>
+                    {% endif %}
+                  {% if entry.link_twitter %}
+                    <a href="{{ entry.link_twitter }}"><img src="https://img.shields.io/badge/Twitter-{{ site.color.secondary }}?style=flat-square&logo=twitter#badge" alt="Twitter thread" /></a>
+                  {% endif %}
+                  {% if entry.link_bluesky %}
+                    <a href="{{ entry.link_bluesky }}"><img src="https://img.shields.io/badge/Bluesky-{{ site.color.secondary }}?style=flat-square&logo=bluesky#badge" alt="Bluesky thread" /></a>
+                  {% endif %}
+                  {% if entry.link_mastodon %}
+                    <a href="{{ entry.link_mastodon }}"><img src="https://img.shields.io/badge/Mastodon-{{ site.color.secondary }}?style=flat-square&logo=mastodon#badge" alt="Mastodon thread" /></a>
+                  {% endif %}
+                  {% if entry.link_github %}
+                    <a href="{{ entry.link_github }}"><img src="https://img.shields.io/badge/GitHub-{{ site.color.secondary }}?style=flat-square&logo=github#badge" alt="GitHub" /></a>
+                  {% endif %}
+                  {% if entry.doi_publisher %}
+                    <span class="altmetric-embed" data-doi="{{ entry.doi_publisher }}" data-badge-type="2" data-hide-no-mentions="true" data-badge-popover="bottom"></span>
+                  {% elsif entry.doi_preprint %}
+                    <span class="altmetric-embed" data-doi="{{ entry.doi_preprint }}" data-badge-type="2" data-hide-no-mentions="true" data-badge-popover="bottom"></span>
+                  {% endif %}
+                </p>
+
+              </div>
+
+            {% endif %}
+          {% endfor %}
+
         {% endfor %}
 
         <div class="pub">

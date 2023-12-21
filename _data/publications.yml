@@ -9,6 +9,7 @@
     zip_supp: 2023_CTdev_supp.pdf
     doi_preprint: 10.1101/2023.05.05.539537
     link_twitter: https://twitter.com/LeonDLotter/status/1655582681613189120
+    link_mastodon: https://neuromatch.social/@LeonDLotter/110332987427316809
     link_github: https://github.com/LeonDLotter/Ctdev
 -   
     type: preprint
@@ -29,6 +30,7 @@
     zip_supp: 2023_PPRS_supp.zip
     doi_preprint: 10.1101/2023.08.15.553345
     link_twitter: https://twitter.com/LeonDLotter/status/1703728958074740925
+    link_bluesky: https://bsky.app/profile/leondlotter.de/post/3k7xrnzstlp2y
 -
     type: published
     title: Revealing the neurobiology underlying interpersonal neural synchronization with multimodal data fusion
