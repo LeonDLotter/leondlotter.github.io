@@ -49,7 +49,7 @@ footer:
 social:
   - symbol: envelope
     url: mailto:leondlotter@gmail.com
-  - symbol: at
+  - symbol: bluesky
     url: https://bsky.app/profile/leondlotter.de
   - symbol: mastodon
     url: https://neuromatch.social/@LeonDLotter
