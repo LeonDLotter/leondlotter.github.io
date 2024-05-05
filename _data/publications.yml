@@ -13,15 +13,6 @@
     link_github: https://github.com/LeonDLotter/Ctdev
 -   
     type: preprint
-    title: Resting state changes in aging and Parkinson’s disease are shaped by underlying neurotransmission – a normative modeling study
-    authors: Kasper J, Caspers S, Lotter LD, Hoffstaedter F, Eickhoff SB, Dukart J
-    year: 2023
-    journal: bioRxiv
-    pdf_main: 2023_RSaging_main.pdf
-    pdf_supp: 2023_RSaging_supp.pdf
-    doi_preprint: 10.1101/2023.10.18.562677
--
-    type: preprint
     title: Temporal dissociation between local and global functional adaptations of the maternal brain to childbirth - A longitudinal assessment
     authors:  Lotter LD, Nehls S, Losse E, Dukart J, Chechko N
     year: 2023
@@ -55,6 +46,16 @@
     doi_publisher: 10.1016/j.bpsc.2021.03.006
     doi_preprint: 10.1101/2020.06.21.20135566
     link_twitter: https://twitter.com/LeonDLotter/status/1404093809462595586
+-
+    type: published
+    title: Resting state changes in aging and Parkinson’s disease are shaped by underlying neurotransmission – a normative modeling study
+    authors: Kasper J, Caspers S, Lotter LD, Hoffstaedter F, Eickhoff SB, Dukart J
+    year: 2024
+    journal: Biological Psychiatry - Cognitive Neuroscience and Neuroimaging
+    pdf_main: 2023_RSaging_main.pdf
+    pdf_supp: 2023_RSaging_supp.pdf
+    doi_publisher: 10.1016/j.bpsc.2024.04.010
+    doi_preprint: 10.1101/2023.10.18.562677
 -
     type: published
     title: Reflecting on the use of persuasive communication devices in academic writing
