@@ -1,22 +1,22 @@
 ---
 - 
     type: preprint
-    title: Human cortex development is shaped by molecular and cellular brain systems
+    title: Regional patterns of human cortex development colocalize with underlying neurobiology
     authors: Lotter LD, Saberi A, Hansen JY, Misic B, Paquola C, ..., IMAGEN Consortium, Nees F, Banaschewski T, Eickhoff SB, Dukart J
     year: 2023
     journal: bioRxiv
-    pdf_main: 2023_CTdev_main.pdf
-    zip_supp: 2023_CTdev_supp.pdf
+    pdf_main: 2024_CTdev_main.pdf
+    zip_supp: 2024_CTdev_supp.pdf
     doi_preprint: 10.1101/2023.05.05.539537
     link_twitter: https://twitter.com/LeonDLotter/status/1655582681613189120
     link_mastodon: https://neuromatch.social/@LeonDLotter/110332987427316809
     link_github: https://github.com/LeonDLotter/Ctdev
 -   
-    type: preprint
+    type: published
     title: Temporal dissociation between local and global functional adaptations of the maternal brain to childbirth - A longitudinal assessment
     authors:  Lotter LD, Nehls S, Losse E, Dukart J, Chechko N
-    year: 2023
-    journal: bioRxiv
+    year: 2024
+    journal: Neuropsychopharmacology
     pdf_main: 2023_PPRS_main.pdf
     zip_supp: 2023_PPRS_supp.zip
     doi_preprint: 10.1101/2023.08.15.553345
