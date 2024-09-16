@@ -1,13 +1,22 @@
 ---
-- 
     type: preprint
-    title: Regional patterns of human cortex development colocalize with underlying neurobiology
-    authors: Lotter LD, Saberi A, Hansen JY, Misic B, Paquola C, ..., IMAGEN Consortium, Nees F, Banaschewski T, Eickhoff SB, Dukart J
-    year: 2023
+    title: Adolescent maturation of cortical excitation-inhibition balance based on individualized biophysical network modeling
+    authors: Saberi A, Wischnewski KJ, Jung K, Lotter LD, Schaare HL, ..., IMAGEN Consortium, Paus T, Dukart J, Bernhardth BC, Popovych OV, Eickhoff SB, Valk SL
+    year: 2024
     journal: bioRxiv
+    pdf_main: 2024_AdolEI.pdf
+    doi_preprint: 10.1101/2024.06.18.599509
+    link_twitter: https://x.com/sofievalk/status/1803328824651739554
+- 
+    type: published
+    title: Regional patterns of human cortex development correlate with underlying neurobiology
+    authors: Lotter LD, Saberi A, Hansen JY, Misic B, Paquola C, ..., IMAGEN Consortium, Nees F, Banaschewski T, Eickhoff SB, Dukart J
+    year: 2024
+    journal: Nature Communications
     pdf_main: 2024_CTdev_main.pdf
     zip_supp: 2024_CTdev_supp.zip
     doi_preprint: 10.1101/2023.05.05.539537
+    doi_publisher: 10.1038/s41467-024-52366-7
     link_twitter: https://twitter.com/LeonDLotter/status/1655582681613189120
     link_mastodon: https://neuromatch.social/@LeonDLotter/110332987427316809
     link_github: https://github.com/LeonDLotter/Ctdev
