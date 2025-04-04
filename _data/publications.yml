@@ -1,12 +1,4 @@
 ---
--
-    type: preprint
-    title: The many-to-many problem of endophenotypes in psychiatry - a biological perspective
-    authors: Dukart J, Lotter LD, Paquola C, Eickhoff SB, Schilbach L
-    year: 2025
-    journal: ResearchGate
-    pdf_main: 2025_Endophenotypes.pdf
-    doi_preprint: 10.13140/RG.2.2.25038.57925
 - 
     type: preprint
     title: Adolescent maturation of cortical excitation-inhibition balance based on individualized biophysical network modeling
@@ -28,7 +20,8 @@
     doi_publisher: 10.1007/978-3-031-77967-1_2
 - 
     type: published
-    title: Moving towards precision psychiatry - the hard nut of depression
+    title: >-
+        Moving towards precision psychiatry: the hard nut of depression
     authors: Dukart J, Lotter LD, Eickhoff SB
     year: 2024
     journal: Signal Transduction and Targeted Therapy
