@@ -1,11 +1,21 @@
 ---
-- 
+-
     type: preprint
+    title: >-
+        Voices of change: Associations between vocal markers and symptoms of ADHD - Findings from the LIFE Child Study
+    authors: Bamberger R, Lotter LD, Nieto N, Poulain T, Körner A, Kiess W, Fuchs M, von Polier G
+    year: 2025
+    journal: Research Square
+    pdf_main: 2025_Voices.pdf
+    doi_preprint: 10.21203/rs.3.rs-7158155/v1
+- 
+    type: published
     title: Adolescent maturation of cortical excitation-inhibition balance based on individualized biophysical network modeling
     authors: Saberi A, Wischnewski KJ, Jung K, Lotter LD, Schaare HL, ..., IMAGEN Consortium, Paus T, Dukart J, Bernhardth BC, Popovych OV, Eickhoff SB, Valk SL
-    year: 2024
-    journal: bioRxiv
-    pdf_main: 2024_AdolEI.pdf
+    year: 2025
+    journal: Science Advances
+    pdf_main: 2025_AdolEI.pdf
+    doi_publisher: 10.1126/sciadv.adr8164
     doi_preprint: 10.1101/2024.06.18.599509
     link_twitter: https://x.com/sofievalk/status/1803328824651739554 
 - 

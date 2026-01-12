@@ -4,8 +4,8 @@ title-big: Leon D. Lotter
 email: leondlotter@gmail.com
 url: https://github.com/jeromelachaud/freelancer-theme
 description: "Leon Lotter's personal research website."
-keywords: "Leon Lotter, Leon D. Lotter, neuroscience, development, psychiatry, INM-7, Forschungszentrum Jülich, Research Centre Jülich, Max Planck School of Cognition"
-skills: "Junior Researcher in Developmental Neuroscience & Psychiatry"
+keywords: "Leon Lotter, Leon D. Lotter, neuroscience, neuroimaging, development, psychiatry, INM-7, Forschungszentrum Jülich, Research Centre Jülich, Max Planck School of Cognition"
+skills: "Junior Researcher in Multimodal Neuroimaging & Psychiatry"
 meta_author: Lotter Leon D.
 
 # Google webmaster tools
@@ -53,8 +53,6 @@ social:
     url: https://bsky.app/profile/leondlotter.de
   - symbol: mastodon
     url: https://neuromatch.social/@LeonDLotter
-  - symbol: twitter
-    url: http://twitter.com/LeonDLotter
   - symbol: researchgate
     url: https://www.researchgate.net/profile/Leon-Lotter
   - symbol: github
@@ -63,6 +61,8 @@ social:
     url: https://scholar.google.com/citations?hl=en&user=a5IJMzUAAAAJ
   - symbol: orcid
     url: https://orcid.org/0000-0002-2337-6073
+#  - symbol: twitter
+#    url: http://twitter.com/LeonDLotter
 
 # Postal address (add as many lines as necessary)
 address:
