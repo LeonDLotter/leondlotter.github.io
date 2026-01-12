@@ -1,7 +1,7 @@
 ---
 layout: default
 grid: toolboxes
-modal-id: 2
+modal-id: 4
 date: 2000-01-02
 img: abannotate.jpeg
 alt: image-alt
@@ -18,7 +18,8 @@ alt: image-alt
 [tw]: https://img.shields.io/badge/Link-Thread-1A8CD8?style=flat-square#badge
 
 #### A toolbox for ensemble-based multimodal gene-category enrichment analysis of human neuroimaging data
- 
+
+
 ABAnnotate is a Matlab-based toolbox to perform ensemble-based gene-category enrichment analysis (GCEA) on volumetric human neuroimaging data via brain-wide gene expression patterns derived from the Allen Human Brain Atlas. It applies a nonparametric method developed by [Fulcher et al. (2021)](https://doi.org/10.1038/s41467-021-22862-1) using spatial autocorrelation-corrected phenotype null maps for the estimation of gene-category null ensembles.  
 Effectively, with ABAnnotate you can answer the question: "Is my brain map of interest spatially related to, e.g., a certain neuronal cell type?". All you have to do is put your brain map into a minimum of three lines of Matlab code, choose the GCEA dataset (e.g., cell types) that interests you and run the toolbox. What you get is a set of association scores and nonparametric corrected *p* values associating your brain map with each GCEA category (e.g., cell type). Read more in the [repository](https://github.com/LeonDLotter/ABAnnotate), in [this example case](https://github.com/LeonDLotter/ABAnnotate/blob/v0.1.0/example/example_pain.md), or our [recent publication](https://doi.org/10.1016/j.neubiorev.2023.105042) for which the toolbox was initially developed.
 
