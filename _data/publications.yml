@@ -10,6 +10,16 @@
     doi_preprint: 10.21203/rs.3.rs-7158155/v1
 - 
     type: published
+    title: >-
+        The many-to-many problem of endophenotypes in psychiatry - a biological perspective
+    authors: Dukart J, Lotter LD, Paquola C, Eickhoﬀ SB, Schilbach L
+    year: 2026
+    journal: Molecular Psychiatry
+    pdf_main: 2026_Endophenotypes.pdf
+    doi_publisher: 10.1038/s41380-026-03473-y
+    link_bluesky: https://bsky.app/profile/juergendukart.bsky.social/post/3meid22e6dc2g 
+- 
+    type: published
     title: Adolescent maturation of cortical excitation-inhibition balance based on individualized biophysical network modeling
     authors: Saberi A, Wischnewski KJ, Jung K, Lotter LD, Schaare HL, ..., IMAGEN Consortium, Paus T, Dukart J, Bernhardth BC, Popovych OV, Eickhoff SB, Valk SL
     year: 2025
