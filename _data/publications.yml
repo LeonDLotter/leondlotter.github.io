@@ -1,12 +1,13 @@
 ---
 -
-    type: preprint
+    type: published
     title: >-
         Voices of change: Associations between vocal markers and symptoms of ADHD - Findings from the LIFE Child Study
     authors: Bamberger R, Lotter LD, Nieto N, Poulain T, Körner A, Kiess W, Fuchs M, von Polier G
-    year: 2025
-    journal: Research Square
-    pdf_main: 2025_Voices.pdf
+    year: 2026
+    journal: European Child & Adolescent Psychiatry
+    pdf_main: 2026_Voices.pdf
+    doi_publisher: 10.1007/s00787-025-02954-9
     doi_preprint: 10.21203/rs.3.rs-7158155/v1
 - 
     type: published
