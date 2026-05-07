@@ -1,6 +1,16 @@
 ---
 -
     type: preprint
+    title: Linking human brain functional connectivity to underlying neurotransmission
+    authors:  Lotter LD, Shafiei G, Larabi D, Koushik A, Dipasquale O, ..., Koenig J, Patil KR, Paquola C, Eickhoff SB, Dukart J
+    year: 2026
+    journal: bioRxiv
+    pdf_main: 2026_Connectivity.pdf
+    zip_supp: 2026_Connectivity.zip
+    doi_preprint: 10.64898/2026.04.28.721294
+    link_github: https://github.com/LeonDLotter/neofc
+- 
+    type: preprint
     title: >-
         Speech-based markers in paediatric ADHD: a longitudinal case-control study of voice features and medication effects
     authors: Bamberger R, Kuhles G, Lotter LD, Dukart J, Konrad K, Siniatchkin M, Fuchs M, von Polier G
@@ -10,15 +20,45 @@
     doi_preprint: 10.64898/2026.03.25.26348708
 - 
     type: published
-    title: >-
-        Voices of change: Associations between vocal markers and symptoms of ADHD - Findings from the LIFE Child Study
-    authors: Bamberger R, Lotter LD, Nieto N, Poulain T, Körner A, Kiess W, Fuchs M, von Polier G
-    year: 2026
-    journal: European Child & Adolescent Psychiatry
-    pdf_main: 2026_Voices.pdf
-    doi_publisher: 10.1007/s00787-025-02954-9
-    doi_preprint: 10.21203/rs.3.rs-7158155/v1
+    title: Regional patterns of human cortex development correlate with underlying neurobiology
+    authors: Lotter LD, Saberi A, Hansen JY, Misic B, Paquola C, ..., IMAGEN Consortium, Nees F, Banaschewski T, Eickhoff SB, Dukart J
+    year: 2024
+    journal: Nature Communications
+    pdf_main: 2024_CTdev_main.pdf
+    zip_supp: 2024_CTdev_supp.zip
+    doi_preprint: 10.1101/2023.05.05.539537
+    doi_publisher: 10.1038/s41467-024-52366-7
+    link_bluesky: https://bsky.app/profile/leondlotter.de/post/3ml74tv7has2q
+    link_mastodon: https://neuromatch.social/@LeonDLotter/110332987427316809
+    link_twitter: https://twitter.com/LeonDLotter/status/1835965052161069502
+    link_github: https://github.com/LeonDLotter/Ctdev
 - 
+    type: published
+    title: Temporal dissociation between local and global functional adaptations of the maternal brain to childbirth - A longitudinal assessment
+    authors:  Lotter LD, Nehls S, Losse E, Dukart J, Chechko N
+    year: 2024
+    journal: Neuropsychopharmacology
+    pdf_main: 2024_PPRS_main.pdf
+    zip_supp: 2024_PPRS_supp.zip
+    doi_publisher: 10.1038/s41386-024-01880-9
+    doi_preprint: 10.1101/2023.08.15.553345
+    link_bluesky: https://bsky.app/profile/leondlotter.de/post/3k7xrnzstlp2y
+    link_twitter: https://twitter.com/LeonDLotter/status/1792893937595629576
+-
+    type: published
+    title: Revealing the neurobiology underlying interpersonal neural synchronization with multimodal data fusion
+    authors: Lotter LD, Kohl SH, Gerloff C, Bell L, Niephaus A, Kruppa JA, Dukart J, Schulte-Rüther M, Reindl V, Konrad K
+    year: 2023
+    journal: Neuroscience & Biobehavioral Reviews
+    pdf_main: 2023_NeurobioINS_main.pdf
+    pdf_supp: 2023_NeurobioINS_supp.pdf
+    doi_publisher: 10.1016/j.neubiorev.2023.105042
+    doi_preprint: 10.1101/2022.07.26.501562
+    link_bluesky: https://bsky.app/profile/leondlotter.de/post/3ml763uxj3222
+    link_mastodon: https://neuromatch.social/@LeonDLotter/109746240683938276
+    link_twitter: https://twitter.com/LeonDLotter/status/1618009047680319494
+    link_github: https://github.com/LeonDLotter/MAsync
+-
     type: published
     title: >-
         The many-to-many problem of endophenotypes in psychiatry - a biological perspective
@@ -37,45 +77,17 @@
     journal: Signal Transduction and Targeted Therapy
     pdf_main: 2024_DeprComment.pdf
     doi_publisher: 10.1038/s41392-024-02023-8
-- 
-    type: published
-    title: Regional patterns of human cortex development correlate with underlying neurobiology
-    authors: Lotter LD, Saberi A, Hansen JY, Misic B, Paquola C, ..., IMAGEN Consortium, Nees F, Banaschewski T, Eickhoff SB, Dukart J
-    year: 2024
-    journal: Nature Communications
-    pdf_main: 2024_CTdev_main.pdf
-    zip_supp: 2024_CTdev_supp.zip
-    doi_preprint: 10.1101/2023.05.05.539537
-    doi_publisher: 10.1038/s41467-024-52366-7
-    link_twitter: https://twitter.com/LeonDLotter/status/1835965052161069502
-    link_mastodon: https://neuromatch.social/@LeonDLotter/110332987427316809
-    link_github: https://github.com/LeonDLotter/Ctdev
 -   
     type: published
-    title: Temporal dissociation between local and global functional adaptations of the maternal brain to childbirth - A longitudinal assessment
-    authors:  Lotter LD, Nehls S, Losse E, Dukart J, Chechko N
-    year: 2024
-    journal: Neuropsychopharmacology
-    pdf_main: 2024_PPRS_main.pdf
-    zip_supp: 2024_PPRS_supp.zip
-    doi_publisher: 10.1038/s41386-024-01880-9
-    doi_preprint: 10.1101/2023.08.15.553345
-    link_twitter: https://twitter.com/LeonDLotter/status/1792893937595629576
-    link_bluesky: https://bsky.app/profile/leondlotter.de/post/3k7xrnzstlp2y
--
-    type: published
-    title: Revealing the neurobiology underlying interpersonal neural synchronization with multimodal data fusion
-    authors: Lotter LD, Kohl SH, Gerloff C, Bell L, Niephaus A, Kruppa JA, Dukart J, Schulte-Rüther M, Reindl V, Konrad K
-    year: 2023
-    journal: Neuroscience & Biobehavioral Reviews
-    pdf_main: 2023_NeurobioINS_main.pdf
-    pdf_supp: 2023_NeurobioINS_supp.pdf
-    doi_publisher: 10.1016/j.neubiorev.2023.105042
-    doi_preprint: 10.1101/2022.07.26.501562
-    link_twitter: https://twitter.com/LeonDLotter/status/1618009047680319494
-    link_mastodon: https://neuromatch.social/@LeonDLotter/109746240683938276
-    link_github: https://github.com/LeonDLotter/MAsync
--
+    title: >-
+        Voices of change: Associations between vocal markers and symptoms of ADHD - Findings from the LIFE Child Study
+    authors: Bamberger R, Lotter LD, Nieto N, Poulain T, Körner A, Kiess W, Fuchs M, von Polier G
+    year: 2026
+    journal: European Child & Adolescent Psychiatry
+    pdf_main: 2026_Voices.pdf
+    doi_publisher: 10.1007/s00787-025-02954-9
+    doi_preprint: 10.21203/rs.3.rs-7158155/v1
+- 
     type: published
     title: Recovery-Associated Resting-State Activity and Connectivity Alterations in Anorexia Nervosa
     authors: Lotter LD, von Polier G, Offermann J, Buettgen K, Stanetzky L, Eickhoff SB, Konrad K, Seitz J*, & Dukart J*
@@ -85,6 +97,7 @@
     pdf_supp: 2021_ANRS_supp.pdf
     doi_publisher: 10.1016/j.bpsc.2021.03.006
     doi_preprint: 10.1101/2020.06.21.20135566
+    link_blueksy: https://bsky.app/profile/leondlotter.de/post/3ml76qe2sbc2q
     link_twitter: https://twitter.com/LeonDLotter/status/1404093809462595586
 -
     type: published
