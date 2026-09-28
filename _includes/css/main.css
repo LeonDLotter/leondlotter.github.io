@@ -632,7 +632,24 @@ img[src*="#badge"] {
 }
 
 span.altmetric-embed {
-    height:19px;
     margin:0px;
     padding:0px;
+}
+
+/* Badge row: center shields.io badges and the injected Altmetric badge on one line */
+.pub p.pub-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px;
+}
+
+.pub-links a,
+.pub-links img {
+    display: block;
+}
+
+/* Altmetric injects <a style="display:inline-block"><img></a>, which adds a line box */
+.pub-links .altmetric-embed a {
+    display: block !important;
 }

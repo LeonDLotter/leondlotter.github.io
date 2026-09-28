@@ -1,4 +1,6 @@
 ---
+# Shown on the main page, in this order (first author, then co-author; newest first).
+# Matches the selection in the KT Boost proposal CV (2026).
 -
     type: preprint
     title: Linking human brain functional connectivity to underlying neurotransmission
@@ -10,16 +12,16 @@
     doi_preprint: 10.64898/2026.04.28.721294
     link_bluesky: https://bsky.app/profile/leondlotter.de/post/3mlb2rvpkns24
     link_github: https://github.com/LeonDLotter/neofc
-- 
-    type: preprint
+-
+    type: published
     title: >-
-        Speech-based markers in paediatric ADHD: a longitudinal case-control study of voice features and medication effects
-    authors: Bamberger R, Kuhles G, Lotter LD, Dukart J, Konrad K, Siniatchkin M, Fuchs M, von Polier G
-    year: 2026
-    journal: medRxiv
-    pdf_main: 2026_Speech.pdf
-    doi_preprint: 10.64898/2026.03.25.26348708
-- 
+        Methodological considerations: integrating measures across assessment modalities
+    authors: Lotter LD, Dukart J
+    year: 2025
+    journal: "Book chapter in: Neurobehavioral Individual Differences (Springer)"
+    pdf_main: 2025_IntegrationChapter.pdf
+    doi_publisher: 10.1007/978-3-031-77967-1_2
+-
     type: published
     title: Regional patterns of human cortex development correlate with underlying neurobiology
     authors: Lotter LD, Saberi A, Hansen JY, Misic B, Paquola C, ..., IMAGEN Consortium, Nees F, Banaschewski T, Eickhoff SB, Dukart J
@@ -33,7 +35,7 @@
     link_mastodon: https://neuromatch.social/@LeonDLotter/110332987427316809
     link_twitter: https://twitter.com/LeonDLotter/status/1835965052161069502
     link_github: https://github.com/LeonDLotter/Ctdev
-- 
+-
     type: published
     title: Temporal dissociation between local and global functional adaptations of the maternal brain to childbirth - A longitudinal assessment
     authors:  Lotter LD, Nehls S, Losse E, Dukart J, Chechko N
@@ -61,35 +63,6 @@
     link_github: https://github.com/LeonDLotter/MAsync
 -
     type: published
-    title: >-
-        The many-to-many problem of endophenotypes in psychiatry - a biological perspective
-    authors: Dukart J, Lotter LD, Paquola C, Eickhoﬀ SB, Schilbach L
-    year: 2026
-    journal: Molecular Psychiatry
-    pdf_main: 2026_Endophenotypes.pdf
-    doi_publisher: 10.1038/s41380-026-03473-y
-    link_bluesky: https://bsky.app/profile/leondlotter.de/post/3mlao4bmv6s2e
-- 
-    type: published
-    title: >-
-        Moving towards precision psychiatry: the hard nut of depression
-    authors: Dukart J, Lotter LD, Eickhoff SB
-    year: 2024
-    journal: Signal Transduction and Targeted Therapy
-    pdf_main: 2024_DeprComment.pdf
-    doi_publisher: 10.1038/s41392-024-02023-8
--   
-    type: published
-    title: >-
-        Voices of change: Associations between vocal markers and symptoms of ADHD - Findings from the LIFE Child Study
-    authors: Bamberger R, Lotter LD, Nieto N, Poulain T, Körner A, Kiess W, Fuchs M, von Polier G
-    year: 2026
-    journal: European Child & Adolescent Psychiatry
-    pdf_main: 2026_Voices.pdf
-    doi_publisher: 10.1007/s00787-025-02954-9
-    doi_preprint: 10.21203/rs.3.rs-7158155/v1
-- 
-    type: published
     title: Recovery-Associated Resting-State Activity and Connectivity Alterations in Anorexia Nervosa
     authors: Lotter LD, von Polier G, Offermann J, Buettgen K, Stanetzky L, Eickhoff SB, Konrad K, Seitz J*, & Dukart J*
     year: 2021
@@ -98,21 +71,32 @@
     pdf_supp: 2021_ANRS_supp.pdf
     doi_publisher: 10.1016/j.bpsc.2021.03.006
     doi_preprint: 10.1101/2020.06.21.20135566
-    link_blueksy: https://bsky.app/profile/leondlotter.de/post/3ml76qe2sbc2q
+    link_bluesky: https://bsky.app/profile/leondlotter.de/post/3ml76qe2sbc2q
     link_twitter: https://twitter.com/LeonDLotter/status/1404093809462595586
 -
     type: published
-    title: Resting state changes in aging and Parkinson’s disease are shaped by underlying neurotransmission – a normative modeling study
-    authors: Kasper J, Caspers S, Lotter LD, Hoffstaedter F, Eickhoff SB, Dukart J
-    year: 2024
-    journal: Biological Psychiatry - Cognitive Neuroscience and Neuroimaging
-    pdf_main: 2024_RSaging_main.pdf
-    pdf_supp: 2024_RSaging_supp.pdf
-    doi_publisher: 10.1016/j.bpsc.2024.04.010
-    doi_preprint: 10.1101/2023.10.18.562677
+    title: >-
+        The many-to-many problem of endophenotypes in psychiatry - a biological perspective
+    authors: Dukart J, Lotter LD, Paquola C, Eickhoﬀ SB, Schilbach L
+    year: 2026
+    journal: Molecular Psychiatry
+    pdf_main: 2026_Endophenotypes.pdf
+    doi_publisher: 10.1038/s41380-026-03473-y
+    link_bluesky: https://bsky.app/profile/leondlotter.de/post/3mlao4bmv6s2e
 -
     type: published
-    title: Reflecting on the use of persuasive communication devices in academic writing
+    title: >-
+        Adolescent maturation of cortical excitation-inhibition ratio based on individualized biophysical network modeling
+    authors: Saberi A, Wischnewski KJ, Jung K, Lotter LD, ..., Popovych OV, Eickhoff SB, Valk SL
+    year: 2025
+    journal: Science Advances
+    pdf_main: 2025_AdolEI.pdf
+    doi_publisher: 10.1126/sciadv.adr8164
+    doi_preprint: 10.1101/2024.06.18.599509
+-
+    type: published
+    title: >-
+        Beware 'persuasive communication devices' when writing and reading scientific articles
     authors: Corneille O, Havemann J, Henderson EL, Ijzerman H, Hussey I, Orban de Xivry J, Jussim L, Holmes NP, Pilacinski A, Beffara B, Carroll H, Outa NO, Lush P, Lotter LD
     year: 2023
     journal: eLife
@@ -120,3 +104,43 @@
     doi_preprint: 10.5281/zenodo.6375872
     doi_publisher: 10.7554/eLife.88654
     link_twitter: https://twitter.com/opatcorneille/status/1661766688998666240
+
+# Not shown on the main page (listed in the CV and on Google Scholar):
+# -
+#     type: preprint
+#     title: >-
+#         Speech-based markers in paediatric ADHD: a longitudinal case-control study of voice features and medication effects
+#     authors: Bamberger R, Kuhles G, Lotter LD, Dukart J, Konrad K, Siniatchkin M, Fuchs M, von Polier G
+#     year: 2026
+#     journal: medRxiv
+#     pdf_main: 2026_Speech.pdf
+#     doi_preprint: 10.64898/2026.03.25.26348708
+# -
+#     type: published
+#     title: >-
+#         Moving towards precision psychiatry: the hard nut of depression
+#     authors: Dukart J, Lotter LD, Eickhoff SB
+#     year: 2024
+#     journal: Signal Transduction and Targeted Therapy
+#     pdf_main: 2024_DeprComment.pdf
+#     doi_publisher: 10.1038/s41392-024-02023-8
+# -
+#     type: published
+#     title: >-
+#         Voices of change: Associations between vocal markers and symptoms of ADHD - Findings from the LIFE Child Study
+#     authors: Bamberger R, Lotter LD, Nieto N, Poulain T, Körner A, Kiess W, Fuchs M, von Polier G
+#     year: 2026
+#     journal: European Child & Adolescent Psychiatry
+#     pdf_main: 2026_Voices.pdf
+#     doi_publisher: 10.1007/s00787-025-02954-9
+#     doi_preprint: 10.21203/rs.3.rs-7158155/v1
+# -
+#     type: published
+#     title: Resting state changes in aging and Parkinson’s disease are shaped by underlying neurotransmission – a normative modeling study
+#     authors: Kasper J, Caspers S, Lotter LD, Hoffstaedter F, Eickhoff SB, Dukart J
+#     year: 2024
+#     journal: Biological Psychiatry - Cognitive Neuroscience and Neuroimaging
+#     pdf_main: 2024_RSaging_main.pdf
+#     pdf_supp: 2024_RSaging_supp.pdf
+#     doi_publisher: 10.1016/j.bpsc.2024.04.010
+#     doi_preprint: 10.1101/2023.10.18.562677

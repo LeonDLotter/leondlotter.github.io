@@ -12,8 +12,9 @@
       
       <div class="col-lg-4  col-lg-offset-2">
         <p>
-          I am interested in (atypical) neurobiological processes involved in the development of psychiatric disorders. 
-          My work focuses on integrative neuroimaging-heavy data analysis to map multilevel neurobiological correlates of typical and atypical phenotypes, from behavior, to brain-regional, molecular and genetic processes.
+          I want to understand what in vivo brain imaging measures biologically.
+          I relate imaging findings – in typical development and in psychiatric disorders – to maps of the brain's molecular and cellular makeup, from neurotransmitter systems to gene expression, and I develop open tools for this, such as NiSpace.
+          My goal is a methodological gold standard for such spatial correlation analyses – validated methods, and the reference maps of known biology they depend on.
         </p>
       </div>
 
@@ -42,7 +43,7 @@
                 <h4>{{ entry.title }}</h4>
                 <p>{{ entry.authors | replace: 'Lotter LD', '<strong>Lotter LD</strong>' }} ({{ entry.year }}). {{ entry.journal }}.</p>
 
-                <p>
+                <p class="pub-links">
                   {% if entry.pdf_main %}
                     <a href="/doc/{{ entry.pdf_main }}"><img src="https://img.shields.io/badge/Manuscript-{{ site.color.secondary }}?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTYiIHdpZHRoPSIxNiIgdmlld0JveD0iMCAwIDUxMiA1MTIiPjwhLS0hRm9udCBBd2Vzb21lIEZyZWUgNi41LjEgYnkgQGZvbnRhd2Vzb21lIC0gaHR0cHM6Ly9mb250YXdlc29tZS5jb20gTGljZW5zZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tL2xpY2Vuc2UvZnJlZSBDb3B5cmlnaHQgMjAyMyBGb250aWNvbnMsIEluYy4tLT48cGF0aCBvcGFjaXR5PSIxIiBmaWxsPSIjZmVmZmZmIiBkPSJNMCA2NEMwIDI4LjcgMjguNyAwIDY0IDBMMjI0IDBsMCAxMjhjMCAxNy43IDE0LjMgMzIgMzIgMzJsMTI4IDAgMCAxNDQtMjA4IDBjLTM1LjMgMC02NCAyOC43LTY0IDY0bDAgMTQ0LTQ4IDBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgNjR6bTM4NCA2NGwtMTI4IDBMMjU2IDAgMzg0IDEyOHpNMTc2IDM1MmwzMiAwYzMwLjkgMCA1NiAyNS4xIDU2IDU2cy0yNS4xIDU2LTU2IDU2bC0xNiAwIDAgMzJjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC00OCAwLTgwYzAtOC44IDcuMi0xNiAxNi0xNnptMzIgODBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTE2IDAgMCA0OCAxNiAwem05Ni04MGwzMiAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgNjRjMCAyNi41LTIxLjUgNDgtNDggNDhsLTMyIDBjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTEyOGMwLTguOCA3LjItMTYgMTYtMTZ6bTMyIDEyOGM4LjggMCAxNi03LjIgMTYtMTZsMC02NGMwLTguOC03LjItMTYtMTYtMTZsLTE2IDAgMCA5NiAxNiAwem04MC0xMTJjMC04LjggNy4yLTE2IDE2LTE2bDQ4IDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZsLTMyIDAgMCAzMiAzMiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0zMiAwIDAgNDhjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC02NCAwLTY0eiIvPjwvc3ZnPg==#badge" alt="Manuscript PDF" /></a>
                   {% endif %}
